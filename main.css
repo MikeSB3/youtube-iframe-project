@@ -148,6 +148,11 @@ FIX FLOATS
     display: inline-block;
     float: right;
 }
+
+.suggested-video img {
+    float: left;
+}
+
 /*
   ========================================
   Clearfix
