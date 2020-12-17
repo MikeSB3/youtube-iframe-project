@@ -67,6 +67,11 @@ table {
 
 body {
     background-color: #191919;
+    font-family: 'Roboto', sans-serif;
+}
+
+p, a, span, h1 {
+    color: white;
 }
 
 .container {
@@ -127,6 +132,18 @@ header {
     margin: 24px 24px 0 0;
 }
 
+.left-section-contents iframe, h1, .view-date, .like-share-save {
+    padding-bottom: 20px;
+}
+
+.video-description div {
+    padding-bottom: 20px;
+}
+
+.video-description div button {
+    float: right;
+}
+
 .right-section-contents {
     margin: 24px 24px 0 0;
 }
@@ -134,6 +151,10 @@ header {
 /*
 FIX FLOATS
  */
+.header-info {
+    padding-bottom: 5px;
+}
+
 .header-info p:first-of-type {
     display: inline-block;
     float: left;
@@ -149,8 +170,23 @@ FIX FLOATS
     float: right;
 }
 
+.suggested-video {
+    padding-bottom: 5px;
+}
+
 .suggested-video img {
     float: left;
+    width: 168px;
+    height: 94px;
+    padding-right: 5px;
+}
+
+.group .view-date {
+    float: left;
+}
+
+.group .like-share-save {
+    float: right;
 }
 
 /*
