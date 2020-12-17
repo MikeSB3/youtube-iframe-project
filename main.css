@@ -83,14 +83,48 @@ p, a, span, h1 {
     width: 33.33%;
     display: inline-block;
     vertical-align: top;
-    background-color: lightseagreen;
 }
 
 .col-2-3 {
     width: 66.66%;
     display: inline-block;
     vertical-align: top;
-    background-color: mediumslateblue;
+}
+
+.ten {
+    width: 10%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.ten a {
+    background-color: #67A039;
+    border-radius: 100%;
+    width: 48px;
+    height: 48px;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.seventy {
+    width: 70%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.seventy p {
+    padding-top: 20px;
+    padding-right: 70px;
+}
+
+.twenty {
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.twenty button {
+    float: right;
 }
 
 header {
@@ -101,7 +135,7 @@ header {
 }
 
 .navigation {
-    background-color: pink;
+    background-color: #212121;
     padding: 20px 16px;
     width: 100vw;
 }
@@ -117,6 +151,10 @@ header {
 .nav-middle {
     width: 50%;
     text-align: center;
+}
+
+.nav-middle input {
+    background-color: #131313;
 }
 
 .nav-right {
@@ -138,10 +176,6 @@ header {
 
 .video-description div {
     padding-bottom: 20px;
-}
-
-.video-description div button {
-    float: right;
 }
 
 .right-section-contents {
